@@ -58,7 +58,7 @@ The `burn` function allows tokens to be destroyed, effectively reducing the tota
 
 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. 
 
 Author
 - Adrian B. Madera
