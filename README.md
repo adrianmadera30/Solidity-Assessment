@@ -1,10 +1,10 @@
-MyToken Smart Contract
+# MyToken Smart Contract
 
-Overview
+## Overview
 
 `MyToken` is a simple ERC-20-like token implemented in Solidity. This smart contract allows for basic token management functions including minting and burning tokens. The contract is written for the Ethereum blockchain and adheres to the Solidity version 0.8.18.
 
-Features
+# Features
 
 - **Token Name:** 2KEN
 - **Token Abbreviation:** 2KN
@@ -12,17 +12,17 @@ Features
 - **Minting:** Increase the total supply by creating new tokens and assigning them to an address
 - **Burning:** Decrease the total supply by destroying tokens from an address balance
 
-Public Variables
+# Public Variables
 
 - **`tokenName`** (`string`): The name of the token (2KEN).
 - **`tokenAbbrv`** (`string`): The abbreviation or symbol of the token (2KN).
 - **`totalSupply`** (`uint`): The total number of tokens in circulation, initialized to 0.
 
-Mappings
+# Mappings
 
 - **`balances`** (`mapping(address => uint)`): Keeps track of the number of tokens each address holds.
 
-Functions
+# Functions
 
 ### mint
 
@@ -56,7 +56,7 @@ The `burn` function allows tokens to be destroyed, effectively reducing the tota
   - Decreases `totalSupply` by `_value`.
   - Decreases the balance of `_address` by `_value`, but only if `_address` has at least `_value` tokens.
 
-License
+# License
 
 This project is licensed under the MIT License. 
 
